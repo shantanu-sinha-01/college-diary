@@ -1,0 +1,21 @@
+{
+  "name": "college-diary",
+  "version": "1.0.0",
+  "description": "A professional college diary app built with Express and Prisma.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["college", "diary", "todo", "notes"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "prisma": "^6.19.3"
+  }
+}
